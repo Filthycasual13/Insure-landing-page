@@ -7,4 +7,56 @@ $darkGrayishViolet: hsl(273, 4%, 51%);
 $grayishBlue: hsl(216, 30%, 68%);
 $veryLightGray: hsl(0, 0%, 98%);
 $headingFont: 'DM Serif Display', sans-serif;
-$bodyFont: 'Karla', sans-serif:
+$bodyFont: 'Karla', sans-serif;
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px 0 150px;
+}
+
+.btn {
+    background: transparent;
+    padding: 8px 25px 8px 25px;
+    border: 1px solid $darkViolet;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 25px 0;
+
+    .logo {
+        position: relative;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 500px;
+        color: $darkGrayishViolet;
+        font-family: $bodyFont;
+        text-transform: uppercase;
+        
+        .plans{
+            &:hover{
+                background-color: $darkViolet;
+                color: white;
+                border: 1px solid white;
+                transition: ease-in 0.2s;
+            }
+        }
+    }
+}
+
+

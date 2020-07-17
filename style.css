@@ -16,6 +16,10 @@ body {
   padding: 0 150px 0 150px;
 }
 
+.switch, .links-mobile {
+  display: none;
+}
+
 .btn {
   background: transparent;
   padding: 8px 25px 8px 25px;
@@ -405,6 +409,7 @@ body {
     bottom: 70px;
   }
   .section-one .right img {
+    z-index: -2;
     width: 690px;
     height: 750px;
   }
@@ -498,6 +503,60 @@ body {
   }
   .section-four .social .icons .icon {
     padding: 0 10px 0 10px;
+  }
+  .box {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+  .box .slider {
+    position: absolute;
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/icon-hamburger.svg);
+  }
+  .links-mobile {
+    visibility: hidden;
+    position: absolute;
+    top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+    background-color: #2d2640;
+    color: white;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+    z-index: 2;
+  }
+  .links-mobile span {
+    padding: 30px 0 30px 0;
+  }
+  .links-mobile .plans {
+    border: 1px solid white;
+    width: 90px;
+  }
+  .links-mobile .plans:hover {
+    background-color: white;
+    color: #2d2640;
+    border: 1px solid #2d2640;
+    -webkit-transition: ease-in 0.2s;
+    transition: ease-in 0.2s;
   }
 }
 /*# sourceMappingURL=style.css.map */

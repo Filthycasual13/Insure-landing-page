@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -13,6 +12,17 @@
 </head>
 
 <body>
+
+  <label class="box">
+    <input type="checkbox" onchange="menu()">
+    <span class="slider"></span>
+  </label>
+  <div class="links-mobile">
+    <span>How we work</span>
+    <span>Blog</span>
+    <span>Account</span>
+    <div class="btn plans">View plans</div>
+  </div>
 
   <div id="wrapper">
     <div class="heading">
@@ -132,6 +142,8 @@
 
   </div>
 
+
+<script src="script.js"></script>
 </body>
 
 </html>

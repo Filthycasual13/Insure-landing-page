@@ -316,4 +316,188 @@ body {
 .section-four .group span {
   color: #837d87;
 }
+
+@media screen and (max-width: 770px) {
+  #wrapper {
+    padding: 0 50px 0 50px;
+  }
+  .heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 20px 0 25px 0;
+  }
+  .heading .logo {
+    position: relative;
+  }
+  .heading .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    display: none;
+  }
+  .heading .links .plans {
+    border: 1px solid #2d2640;
+  }
+  .heading .links .plans:hover {
+    background-color: #2d2640;
+    color: white;
+    border: 1px solid white;
+    -webkit-transition: ease-in 0.2s;
+    transition: ease-in 0.2s;
+  }
+  .section-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .section-one .bg {
+    position: absolute;
+    height: 650px;
+    width: 800px;
+    top: 680px;
+  }
+  .section-one .line {
+    display: none;
+  }
+  .section-one .left h1 {
+    font-weight: "DM Serif Display", sans-serif;
+    font-size: 3em;
+    text-align: center;
+  }
+  .section-one .left P {
+    font-weight: "Karla", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .section-one .left .plans {
+    position: relative;
+    top: 30px;
+    left: 200px;
+  }
+  .section-one .right {
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+  }
+  .section-one .right img {
+    width: 690px;
+    height: 750px;
+  }
+  .section-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    top: 150px;
+    padding-top: 60px;
+    height: 600px;
+  }
+  .section-two .line {
+    position: relative;
+    left: 200px;
+  }
+  .section-two h1 {
+    text-align: center;
+  }
+  .section-two .features {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .section-two .features .feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+  .section-three {
+    position: relative;
+    top: 500px;
+    right: 100px;
+    height: 400px;
+    width: 685px;
+    padding-left: 50px;
+  }
+  .section-three .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .section-three .banner h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  .section-three .banner .btn {
+    right: 0px;
+  }
+  .section-four {
+    position: relative;
+    top: 400px;
+  }
+  .section-four .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-four .social .icons {
+    padding-top: 15px;
+  }
+  .section-four .social .icons .icon {
+    padding: 0 10px 0 10px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
